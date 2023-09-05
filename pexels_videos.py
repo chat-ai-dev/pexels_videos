@@ -30,7 +30,11 @@ def get_pexels_videos(tool_input, bot):
 	if response.status_code == 200:
 		data = response.json()
 		results = data['videos'][0]['video_files'][0]['link']
-		results = results + 'pexels.com'
+		results = f"""
+This video is provided by <a href="https://www.pexels.com/">Pexels</a>.
+<video width="640" controls name="media"><source src="{results}" type="audio/mpeg"></video>
+PEXELS.COM
+"""
 	else:
 		error_message = f"Request failed with status code {response.status_code}"
 		return error_message
