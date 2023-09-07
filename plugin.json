@@ -1,10 +1,10 @@
 {
     "name": "Pexels Videos",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "The best free videos shared by creators in https://www.pexels.com/.\n\nThe search query. 'pexels Ocean', 'pexels Tigers', 'pexels Pears', etc.",
     "author_name": "chat-ai-dev",
     "author_url": "https://github.com/chat-ai-dev",
     "plugin_url": "https://github.com/chat-ai-dev/pexels_videos",
     "tags": "pexels, videos, nature",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/pexels_videos.png"
+    "thumb": "https://raw.githubusercontent.com/chat-ai-dev/pexels_videos/main/pexels_videos.png"
 }
